@@ -1,0 +1,56 @@
+.modal_block {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: rgba(0,0,0,0.25);
+ 
+}
+
+.modal_block_row{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  max-width: 720px;
+  min-height: 450px;
+  border-radius: 45px;
+  border: 1px;
+  background-color: #F1F1F1;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  margin: 20px 30px ;
+  padding: 0 0 5px 0;
+  position: relative;
+}
+.modal_block_row_icon{
+  position: absolute;
+    top: -9px;
+    right: -4px;
+    width: 40px;
+    
+}
+.modal_block_row_photo{
+  width: min(720px,100%);
+}
+.modal_block_row_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 10px 10px 10px 30px;
+  gap: 5px;
+  margin-left: 66px;
+}
+.modal_block_row_div_text{
+  margin: 0;
+  text-align: start;
+  text-indent: -55px;
+}
+b{
+  color: #00000061;
+  
+}

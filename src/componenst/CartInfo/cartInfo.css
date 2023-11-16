@@ -1,0 +1,33 @@
+.card{
+    width: 320px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px;
+    background-color: #F1F1F1;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+}
+.card_div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+.card_photo{
+    width: 320px;
+}
+button{
+    margin-top: 20px;
+    width: 380px;
+    height: 50px;
+    background-color: #3D7298;
+    transition: transform 0.3s ease;
+    color: white;
+    border: none;
+
+}
+button:hover{
+    transform: scale(1.09);
+}
